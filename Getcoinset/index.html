@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getcoinset</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <style>
+        .lopoik{
+            width:80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;  
+            margin: auto;
+        }
+        .downer{
+            height: 100vh;
+            width: 100%; 
+        }
+    </style>    
+   <!-- rates starts  -->
+   <div style="z-index: 5; width: 100% ;  position: fixed; display: flex; align-items: center; justify-content: space-around;">
+    <div id="cr-widget-marquee"
+    data-coins="bitcoin,ethereum,tether,ripple,cardano"
+    data-theme="dark"
+    data-show-symbol="true"
+    data-show-icon="true"
+    data-show-period-change="true"
+    data-period-change="24H"
+    data-api-url="https://api.cryptorank.io/v0"
+  > 
+    <script src="https://cryptorank.io/widget/marquee.js"></script>
+  </div>
+    </div>  
+<!-- rate end -->   
+<br>
+<br>
+<br>
+<br>
+<section class="downer">
+    <div class="lopoik">
+        <button style="   padding: 14px; background-color: green; color: white; width: 40%; cursor: pointer;  border: none; outline: none;"> 
+           <a href="./processing.html"  style="color: white;"> Buy </a>
+        </button>  
+
+        <button style="  padding: 14px; background-color: red; color: white; width: 40%;  cursor: pointer; border: none; outline: none;">
+           <a href="./processingsell.html" style="color: white;">Sell</a>
+        </button>
+   </div>
+<div style="width: 50%; margin: auto;">
+    <img src="./assets/img/logo.jpeg" style="width: 100%;" alt="">
+</div>
+</section> 
+<div style="text-align: center; color: rgb(255, 60, 0)  ;"> 
+ <b>
+     Trusted partners
+ </b>
+</div>  
+<marquee behavior="" direction=""> 
+ <img src="./assets/img/binance logo.png" style="width: 20%;" alt="">
+ <img src="./assets/img/luno (1).png" style="width: 20%;" alt="">
+ <img src="./assets/img/coin.png" style="width: 20%;" alt="">
+</marquee>
+<div style="text-align:center; color:rgb(218, 218, 218); bottom: 0px;"> 
+        Allright reserved Getcoinset.co.us 
+</div>
+<br><!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/643abd114247f20fefebd120/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

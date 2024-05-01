@@ -1,0 +1,1211 @@
+@media(max-width:550px){ 
+    body{ 
+        padding:0px; 
+        margin: 0px; 
+        height: 100vh; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    } 
+    .det{
+        width: 40%;
+        text-align: center; 
+        margin: auto;
+        color: rgb(255, 60, 0); 
+    }
+    .add{
+        margin: auto;
+        color:rgb(255, 60, 0) ;
+        width: 50%;
+        font-size:14px;
+        text-align: center; 
+    }
+    .upperds{
+        border:solid 2px  rgb(255, 60, 0)  ;
+        background-color: inherit ;
+        color: white;
+        border-right: rgb(255, 255, 255)  solid 3px;
+        border-top:  rgb(255, 255, 255)   solid 3px;
+        border-left: rgb(255, 255, 255)  solid 3px;
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        margin-top: 30px;
+        width:100%;
+        cursor: pointer; 
+        font-size: 12px;
+    }
+    .topheadre{
+        width: 100%;
+        height:300px;
+        color: white; 
+        text-align: center;
+        background-color:rgb(255, 60, 0) ;
+        background-image: url("../assets/img/imgTrading.jpg");
+        background-blend-mode: multiply;
+    }
+    .environment{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.849);
+        position: fixed;
+    }
+    .downone{
+        color: rgb(255, 128, 0);
+        width:60%;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .allContain{
+        width: 100%;
+        height: 100vh; 
+        overflow: scroll; 
+    }
+    .allContain::-webkit-scrollbar{
+        display: none;
+    }
+    .moko{
+        width: 0%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.37);
+        position: fixed; 
+        z-index: 22;
+    }
+    .lopo{ 
+        width: 0%;
+        height: 100vh;
+        background-color: white;
+        overflow: hidden;
+    }
+    .firstnav{ 
+        width: 100%;
+        background-color:rgb(255, 60, 0) ;
+        color:white;
+        position: fixed;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .inputdiv1{
+        width: 90%;
+        display: flex;
+        margin: auto;
+    }
+    .tall{
+        margin-left: 10px;
+        font-size:12px;
+    }
+    .onlive{
+        width: 8%;
+        cursor: pointer;
+        margin-right:10px;
+    }
+    .user{
+        width: 40%;
+        padding: 2px;
+        margin: 2px;
+        background-color: white;
+    } 
+    .headerone{  
+        color: rgb(2, 54, 138);
+        text-align: center;  
+    } 
+    .right{
+        width:50%;    
+        height: contain;
+        font-size: 11px;  
+    }
+    .left{
+        width:50%;
+        background-color: rgb(2, 54, 138);
+        color: white;  
+        padding:5px;
+        font-size: 11px;
+        height: contain;
+        font-size: 11px;  
+    }
+    .upper{
+        border:solid 2px  rgb(2, 54, 138);
+        background-color: white;
+        border-right: rgb(2, 54, 138) solid 3px;
+        border-top:  rgb(2, 54, 138) solid 3px; 
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        width: 60%; 
+        text-decoration: none; 
+        cursor: pointer; 
+        font-size: 12px;
+    } 
+    .mark{ 
+        height: 0px;
+        transition: 1s;
+        margin-top: 13px;
+        overflow: hidden;
+    }
+    .uppers{
+        background-color:  rgb(2, 54, 138);
+        color: white;
+        border-right: white solid 3px;
+        border-left: white solid 3px;
+        border-bottom: white solid 3px;
+        border-top: none;
+        padding:6px;
+       font: bold;
+       margin-top: 15px;
+       width: 60%; 
+       font-size: 12px;
+       text-decoration: none; 
+    }
+    .ssub{
+        background-color: red;
+        width:30%;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    .inponed{
+        width: 60%;
+        outline: none;
+        border: none;
+        padding:15px;
+    }
+    .lide{ 
+        width: 100%; 
+        height:55px;
+        margin-top: 20px; 
+        transition:1s; 
+    }
+    .lider{ 
+        width: 100%; 
+        height: 0px;  
+        margin-top:px; 
+        overflow: hidden;
+        transition:1s;
+    }
+    .movert{
+        transition: 1s; 
+        height:57px;  
+    }
+    .deb{
+        margin: 0px; 
+        color: white;
+    }
+    .dropone{
+        width: 100%;
+        margin: auto; 
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 60, 0) ;
+        position:fixed;
+        z-index:22;
+        height:100vh;
+    } 
+    .yall{
+        color:white;
+        font-size: 30px;
+    }
+    .debra{
+        width:0%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        overflow: hidden;
+    }   
+    .fix{
+        width: 100%;
+        height:40px;
+        background-color:  rgb(2, 54, 138);
+    }
+    .ghty{
+        display: flex;
+    }
+    .downuop{
+        width: 30%;
+        margin: auto;
+    }
+    .upperd{
+        border:solid 2px  rgb(255, 60, 0)  ;
+        border-right:solid 2px  rgb(255, 60, 0)  ;
+        border-top: solid 2px  rgb(255, 60, 0)  ;
+        border-left: solid 2px  rgb(255, 60, 0)  ;
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        margin-top: 30px;
+        width:100%;
+        cursor: pointer; 
+        font-size: 12px;
+    }
+    .iherits{
+        width:85%;
+        margin: auto;
+        margin-top:10px;
+        border-radius: 10px; 
+        background-color:  rgb(255, 60, 0)   ;
+    }
+    .anio{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100px;  
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        border: rgb(255, 60, 0)   solid 2px;
+        justify-content:center;
+    }
+    .daily{
+        padding: 10px;
+        color:rgb(255, 255, 255);
+        text-align: center; 
+    }
+    .thems{
+        color: white;
+        display: flex;
+        font-size:9px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .meter{
+        width:85%; 
+        margin:auto;
+        padding: 5px;
+        border-radius:10px;  
+        text-align: center;
+        color:white;
+        margin-top: 20px;
+        font-size: 10px;
+        background-color:  rgb(255, 60, 0)  ;
+    }
+    .slashside{
+        width:100%; 
+        background-color:rgb(255, 60, 0)  ;  
+    }
+    .oins{
+        text-align: center
+        ;
+    }
+    .fistcired{
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        height: 200px;
+        background-color:rgb(255, 60, 0)   ;
+    }
+    .onesiter{
+        width: 25%;
+        border-radius:10px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .okside{
+        width: 6px;
+        background-color: white;
+        height:40px;
+    }
+    .alltem{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .note{
+        text-align: center;
+        width: 70%;
+        padding: 5px;
+        font-size: 11px;
+        border-radius: 10px;
+        margin: auto;
+       border: rgb(255, 60, 0)   solid 3px ;
+    }
+    .min{
+        border-radius: 5px;
+        margin: auto;
+        color: white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        height: 40px;
+        display: none;
+        background-color: red;
+    }
+    .vuy{  
+        font-size: 20px;
+        text-decoration: none;
+        color:rgb(255, 60, 0)    ;
+    } 
+    .oin{
+        font: bold;
+        padding: 10px;
+        text-align: center; 
+        color:rgb(255, 60, 0)  ;
+    }
+    .sidepput{
+        margin: auto;
+        width: 90%;
+        padding: 2px;  
+    }
+    .sidepputs{
+        margin: auto;
+        background-color:rgb(255, 60, 0)   ;
+        width:100%;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        padding: 20px; 
+        text-align: center
+    }
+    .llko{
+        padding: 10px;
+        display: none;
+        z-index: 22; 
+        width:89%; 
+    }
+    .name{
+        width:85%;
+        padding: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)  ;
+    }
+    .nam{
+        width:85%;
+        padding: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)   ;
+    }
+    .namer{
+        width:95%;  
+        border-radius: 10px;
+        outline: none;
+        border: none ; 
+    }
+    .names{  
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+        color:rgb(2, 54, 138)  ;
+        width: 90%;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)  ;
+    }
+    .btnd{
+        width: 50%;
+        margin: auto;
+    }
+    .list{
+        width:80%;
+        background-color: white; 
+        display: none;   
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        border: solid 2px rgb(255, 60, 0)   ; 
+        z-index: 22;
+    } 
+    .lists{ 
+        width: 100%;
+        background-color: white;
+        height: 100vh; 
+        position: fixed; 
+        z-index: 22;
+        display: none;
+    }
+    .sed{
+        display: none;
+    }
+    .deook{
+        border: solid 2px rgb(255, 60, 0)  ; 
+        border-radius: 10px;
+        width: 75%; 
+        margin: auto;
+        margin-top: 20px;
+        padding: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: none;
+    }
+    
+    .kiolkmm{
+        background-color: rgb(255, 60, 0)  ;
+        width: 100%;
+        outline: none;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    .walpic{
+        width: 45%;
+        height:150px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(255, 60, 0)  ;
+    }
+    .linkd{
+        width: 95%;
+        height:50px;
+        margin: auto; 
+        margin-top: 10px;
+        font-size: 12px;
+        border-radius: 10px;
+        background-color: rgb(255, 60, 0)  ;
+    }
+    .llko{   
+        display: none;
+        width: 90%; 
+        border-radius: 10px;
+        margin: auto;
+        border: solid  3px rgb(255, 60, 0)  ;
+    }
+}
+
+/* tablet side  */
+@media (min-width:550px) {      
+    
+    .det{
+        width: 40%;
+        text-align: center; 
+        margin: auto;
+        color: rgb(255, 60, 0); 
+    }
+    .add{
+        margin: auto;
+        color:rgb(255, 60, 0) ;
+        width: 50%;
+        font-size:14px;
+        text-align: center; 
+    }
+    .upperds{
+        border:solid 2px  rgb(255, 60, 0)  ;
+        background-color: inherit ;
+        color: white;
+        border-right: rgb(255, 255, 255)  solid 3px;
+        border-top:  rgb(255, 255, 255)   solid 3px;
+        border-left: rgb(255, 255, 255)  solid 3px;
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        margin-top: 30px;
+        width:100%;
+        cursor: pointer; 
+        font-size: 12px;
+    }
+    .topheadre{
+        width: 100%;
+        height:300px;
+        color: white; 
+        text-align: center;
+        background-color:rgb(255, 60, 0) ;
+        background-image: url("../assets/img/imgTrading.jpg");
+        background-blend-mode: multiply;
+    }
+    .environment{
+        width: 100%;
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.849);
+        position: fixed;
+    }
+    .downone{
+        color: blue;
+        width:60%;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .allContain{
+        width: 100%;
+        height: 100vh; 
+        overflow: scroll; 
+    }
+    .allContain::-webkit-scrollbar{
+        display: none;
+    }
+    .moko{
+        width: 0%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.37);
+        position: fixed; 
+        z-index: 22;
+    }  
+    .lopo{ 
+        width: 0%;
+        height: 100vh;
+        background-color: white;
+        overflow: hidden;
+    }
+    .body{ 
+        background-color: rgb(238, 238, 238);
+    }
+    .inponed{
+        width: 60%;
+        outline: none;
+        border: none;
+        padding:12px;
+    }
+    .inputdiv1{
+        width: 90%;
+        display: flex;
+        margin: auto;
+    }
+    .thems{
+        color: white;
+        display: flex;
+        font-size: 9px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .allContainers{
+        display: flex;
+        padding: 20px;
+        align-items: center;
+    }
+    .secondone{
+        width: 65%;
+        margin: auto;
+    } 
+    .llko{   
+        display: none;
+        width: 100%; 
+        border-radius: 10px;
+        border: solid  3px rgb(255, 60, 0)  ;
+    }
+    
+    .list{
+        display: none;
+    } 
+    .ssub{
+        width:20%;
+        padding:12px;
+    }                                         
+    .inputdiv1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }                              
+    .walpic{    
+        width: 35%;
+        height:150px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(239, 239, 239);
+    }
+    .linkd{
+        width: 95%;
+        height:50px;
+        display: flex;
+        align-items: center;
+        margin: auto; 
+        margin-top: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        background-color: rgb(255, 60, 0)  ;
+    }
+    .names{
+        border:solid rgb(2, 54, 138);
+        padding: 7px; 
+        border-radius: 9px;
+        display: flex;
+        color: rgb(2, 54, 138); 
+        align-items: center; 
+        width: 95%;
+    }
+    .name{ 
+        width: 90%;
+        padding: 20px; 
+        border-radius: 10px;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)   ;
+    }
+    .oin{
+        text-align: center;
+        color: rgb(2, 54, 138);
+        font: bold;
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+    .btnd{
+        width: 50%;
+        margin: auto;
+    }
+    .sidepputs{
+        background-color:  rgb(255, 60, 0)  ;
+        padding:0px;
+        color: white; 
+        border: none;
+        outline: none;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .sidepputse{
+        background-color:  rgb(255, 60, 0)  ;
+        padding:10px;
+        color: white;
+        border: none;
+        outline: none;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .min{
+        border-radius: 5px;
+        margin: auto;
+        color: white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        height: 40px;
+        display: none;
+        background-color: red;
+    }
+    .note{ 
+        text-align: center;
+        width: 70%;
+        padding: 10px;
+        font-size: 11px;
+        border-radius: 10px;
+        margin: auto;
+       border: rgb(255, 60, 0)   solid 3px ;
+    }
+    .sed{
+        display: none;
+    } 
+    .list{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: solid 2px rgb(255, 60, 0)    ;
+    }
+    .deook{
+        border: solid 2px rgb(255, 60, 0)  ; 
+        border-radius: 10px;
+        width: 100%; 
+        padding: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: none;
+    }
+    .oins{
+        text-align: center; 
+        font: bold;
+        width: 95%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px; 
+        padding: 10px;
+    }
+    .kiolkmm{
+        background-color: rgb(255, 60, 0)  ;
+        width: 95%;
+        outline: none;
+        color: white;
+        padding: 20px; 
+        border-radius: 10px;
+        border: none;
+    }     body{ 
+        padding:0px;
+        margin: 0px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .firstnav{ 
+        width: 100%;
+        background-color: rgb(255, 60, 0)  ;
+        color:white;
+        position: fixed;
+        height: 44px;
+        display: flex;   
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .tall{
+        margin-left: 10px;
+        font: bold;
+        cursor: pointer;
+        font-size:12px;
+    }
+    .onlive{
+        width: 8%;
+        cursor: pointer;
+        margin-right:10px;
+    }
+    .user{
+        width: 40%;
+        padding: 2px;
+        margin: 2px;
+        background-color: white;
+    } 
+    .headerone{  
+        color: rgb(2, 54, 138);
+        text-align: center;  
+    } 
+    .right{
+        width:50%;    
+        height: contain;
+        font-size: 11px;  
+    }
+    .left{
+        width:50%;
+        background-color: rgb(255, 60, 0)  ;
+        color: white;  
+        padding:5px;
+        font-size: 11px;
+        height: contain;
+        font-size: 11px;  
+    }
+    .upper{
+        border:solid 2px  rgb(255, 60, 0)  ;
+        background-color: white;
+        border-right: rgb(255, 60, 0)     solid 3px;
+        border-top:  rgb(255, 60, 0) solid 3px;
+        border-left: rgb(255, 60, 0)   solid 3px;
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        width: 60%;
+        text-decoration: none; 
+        cursor: pointer; 
+        font-size: 12px;
+    } 
+    .mark{ 
+        height: 0px;
+        transition: 1s;
+        margin-top: 13px;
+        overflow: hidden;
+    }
+    .uppers{
+        background-color:  rgb(255, 60, 0)  ;
+        color: white;
+        border-right: white solid 3px;
+        border-left: white solid 3px;
+        border-bottom: white solid 3px;
+        border-top: none;
+        padding:6px;
+       font: bold;
+       margin-top: 15px;
+       width: 60%; 
+       font-size: 12px;
+       text-decoration: none; 
+    }
+    .lide{ 
+        width: 100%; 
+        height:55px;
+        margin-top: 20px; 
+        transition:1s; 
+    }
+    .lider{ 
+        width: 100%; 
+        height: 0px;  
+        margin-top:px; 
+        overflow: hidden;
+        transition:1s;
+    }
+    .movert{
+        transition: 1s; 
+        height:57px;  
+    }
+    .deb{
+        margin: 0px; 
+        color: white;
+        font-size:19px;
+    }
+    .dropone{
+        width: 100%;  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(255, 60, 0)  ;
+        position:fixed;
+        height:100vh; 
+        z-index:22;
+    } 
+    .yall{
+        color:white;
+        font-size: 30px;
+    }
+    .debra{
+        width:0%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        overflow: hidden;
+    }   
+    .fix{
+        width: 100%;
+        height:40px;
+        background-color:  rgb(255, 60, 0)  ;
+    }
+    .ghty{
+        display: flex;
+    }
+    .downuop{
+        width: 30%;
+        margin: auto;
+    }
+    .upperd{
+        border:solid 2px  rgb(255, 60, 0)  ;
+        background-color: white;
+        border-right: rgb(255, 60, 0)  solid 3px;
+        border-top:  rgb(255, 60, 0)   solid 3px;
+        border-left: rgb(255, 60, 0)  solid 3px;
+        border-bottom:none;
+        padding:6px;
+        font: bold;
+        margin-top: 30px;
+        width:100%;
+        cursor: pointer; 
+        font-size: 12px;
+    }
+    .iherits{
+        width:85%;
+        margin: auto;
+        margin-top:10px;
+        border-radius: 10px; 
+        background-color: rgb(255, 60, 0)  ;
+    }
+    .anio{
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100px;  
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        justify-content:center;
+    }
+    .daily{
+        padding: 10px;
+        color:white;
+        text-align: center; 
+    }
+    .meter{
+        width:85%; 
+        margin:auto;
+        padding: 5px;
+        border-radius:10px;  
+        text-align: center;
+        color:white;
+        margin-top: 20px;
+        font-size: 10px;
+        background-color: rgb(255, 60, 0)   ;
+    } 
+    .oins{
+        text-align: center
+        ;
+    }
+    .fistcired{
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        padding: 10px;
+        height: 200px;
+        background-color:rgb(255, 60, 0)    ;
+    }
+    .onesiter{
+        width: 25%;
+        border-radius:10px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .okside{
+        width: 6px;
+        background-color: white;
+        height:40px;
+    }
+    .alltem{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .note{
+        text-align: center;
+        width: 70%;
+        padding: 5px;
+        font-size: 11px;
+        border-radius: 10px;
+        margin: auto;
+       border: rgb(255, 60, 0)  solid 3px ;
+    }
+    .min{
+        border-radius: 5px;
+        margin: auto;
+        color: white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        height: 40px;
+        display: none;
+        background-color: red;
+    }
+    .vuy{  
+        font-size: 20px;
+        text-decoration: none;
+        color:rgb(255, 60, 0)    ;
+    } 
+    .oin{
+        font: bold;
+        padding: 10px;
+        text-align: center; 
+        color:rgb(255, 60, 0)    ;
+    }
+    .sidepput{
+        margin: auto;
+        width: 90%;
+        padding: 2px;  
+    }
+    .sidepputs{
+        margin: auto;
+        background-color:rgb(255, 60, 0)   ;
+        width:100%;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        padding: 20px; 
+        text-align: center
+    }
+    .llko{
+        padding: 10px;
+        display: none;
+        z-index: 22; 
+        width:89%; 
+    }
+    .name{
+        width:85%;
+        padding: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)   ;
+    }
+    .namer{
+        width:95%;  
+        border-radius: 10px;
+        outline: none;
+        border: none ; 
+    }
+    .names{  
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+        color:rgb(2, 54, 138)  ;
+        width: 90%;
+        outline: none;
+        border: solid 3px rgb(255, 60, 0)   ;
+    }
+    .btnd{
+        width: 50%;
+        margin: auto;
+    }
+    .list{
+        width:80%;
+        background-color: white; 
+        display: none;   
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        border: solid 2px rgb(255, 60, 0)    ; 
+        z-index: 22;
+    } 
+    .lists{ 
+        width: 100%;
+        background-color: white;
+        height: 100vh; 
+        position: fixed; 
+        z-index: 22;
+        display: none;
+    }
+    .sed{
+        display: none;
+    }
+    .ssub{
+        background-color: red;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    .slashside{
+        width:100%; 
+        background-color: rgb(255, 60, 0)  ;  
+    }
+ }
+ /* mini laptop side */
+@media (min-width:1024px) {   
+    .environment{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.849);
+        position: fixed;
+    }
+    .downone{
+        color: blue;
+        width:60%;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .onlive{
+        width:3%;
+    }
+    .demacate{
+        width: 70%;
+        margin: auto;
+    }
+    .allContain{
+        width: 100%;
+        height: 100vh; 
+        overflow: scroll; 
+    }
+    .allContain::-webkit-scrollbar{
+        display: none;
+    }
+  .kiolkmm{
+    background-color: rgb(255, 60, 0)  ;
+    width:95%;
+  } 
+  .ssub{
+    width: 30%;
+  } 
+  .body{ 
+      background-color: rgb(238, 238, 238);
+  }
+    .secondone{ 
+    width:40%;
+   }
+   .nam{
+       width:85%;
+       padding: 20px;
+       border-radius: 10px;
+       outline: none;
+       border: solid 3px rgb(255, 255, 255) ;
+   }
+   .firstnav{
+      width: 
+      69%;
+  }
+  .dropone{
+    margin-left: -205px;
+  }
+} 
+/* large laptop */  
+@media (min-width:1005px) {   
+  
+    .environment{
+        width: 100%;
+        display: flex;
+        visibility: hidden;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.849);
+        position: fixed;
+    }
+    .downone{
+        color: blue;
+        width:20%;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .allContain{
+        width: 100%;
+        height: 100vh; 
+        overflow: scroll; 
+    }
+    
+    .allContain::-webkit-scrollbar{
+        display: none;
+    }
+   .secondone{ 
+    width:30%;
+   }
+   .kiolkmm{
+    width:95%;
+   }   
+   .body{ 
+       background-color: rgb(238, 238, 238);
+   }
+   .nam{
+       width:85%;
+       padding: 20px;
+       border-radius: 10px;
+       outline: none;
+       border: solid 3px rgb(255, 255, 255) ;
+   }
+   .deb{
+    color: white;
+   }
+} 
+/* tv size */
+@media (min-width:2560px) {   
+    .environment{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.849);
+        position: fixed;
+    }
+    .downone{
+        color: rgb(255, 60, 0)  ;
+        width:50%;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px; 
+        background-color: rgb(255, 255, 255);
+    }
+    .allContain::-webkit-scrollbar{
+        display: none;
+    } 
+      .body{ 
+          background-color: rgb(238, 238, 238);
+      }
+      .allContainers{
+        width: 40%;
+        margin: auto;
+      } 
+      .firstnav{
+        width: 30%;
+      } 
+    .allContain{     
+        width: 100%;
+        height: 100vh; 
+        overflow: scroll; 
+    }
+}

@@ -5,6 +5,19 @@
         height: 100vh; 
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     } 
+        .upu{
+        font-size:65px;
+        color:white;
+    }
+    .now{
+        width:100%; 
+        padding:16px;
+        outline:none;
+        border:none;
+        color:purple;
+        outline:none;
+        border-radius:10px;
+    }
     .hold{
         width:95%;
         background-color: purple;
@@ -486,6 +499,19 @@
 
 /* tablet side  */
 @media (min-width:550px) {      
+        .upu{
+        font-size:65px;
+        color:white;
+    }
+    .now{
+        width:100%; 
+        padding:16px;
+        outline:none;
+        border:none;
+        color:purple;
+        outline:none;
+        border-radius:10px;
+    }
     .hold{
         width:95%;
         background-color: purple;
@@ -1072,6 +1098,19 @@
  }
  /* mini laptop side */
 @media (min-width:1024px) {   
+        .upu{
+        font-size:65px;
+        color:white;
+    }
+    .now{
+        width:100%; 
+        padding:16px;
+        outline:none;
+        border:none;
+        color:purple;
+        outline:none;
+        border-radius:10px;
+    }
     .hold{
         width:95%;
         background-color: purple;
@@ -1142,6 +1181,19 @@
 } 
 /* large laptop */  
 @media (min-width:1005px) {   
+        .upu{
+        font-size:65px;
+        color:white;
+    }
+    .now{
+        width:100%; 
+        padding:16px;
+        outline:none;
+        border:none;
+        color:purple;
+        outline:none;
+        border-radius:10px;
+    }
   .hold{
         width:95%;
         background-color: purple;
@@ -1198,6 +1250,19 @@
 } 
 /* tv size */
 @media (min-width:2560px) {   
+        .upu{
+        font-size:65px;
+        color:white;
+    }
+    .now{
+        width:100%; 
+        padding:16px;
+        outline:none;
+        border:none;
+        color:purple;
+        outline:none;
+        border-radius:10px;
+    }
     .hold{
         width:95%;
         background-color: purple;
